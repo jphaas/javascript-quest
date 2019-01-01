@@ -1,0 +1,68 @@
+body {
+    margin-top: 10px;
+    background-image: url('http://www.storybookkidsonmapleridge.com/book_background.jpg');
+    background-repeat: no-repeat;
+}
+
+h1 {
+    margin-top: 30px;
+    text-align: center;
+    width: 250px;
+    margin-left: 50px;
+    
+    font-size: 20px;
+    
+    font-family: "Georgia", serif;
+}
+
+img {
+    position: absolute;
+    top: 50px;
+    width: 240px;
+    left: 380px;
+    
+}
+
+p.text {
+    width: 240px;
+    margin-left: 50px;
+    font-family: 'Helvetica', sans-serif;
+    margin-top: 30px;
+    line-height: 20px; 
+}
+
+div.buttons {
+   text-align: center;
+   width: 250px;
+    margin-left: 50px;
+    margin-top: 60px;
+}
+
+div.buttons span {
+    font-family: 'Georgia', serif;
+    font-size: 12px;
+    line-height: 40px;
+    background-color: lightyellow;
+    border: 1px outset grey;
+    padding: 6px;
+    color: blue;
+    border-radius: 10px;
+    margin-right: 10px;
+    cursor: pointer;
+    white-space: nowrap;
+    
+	-webkit-touch-callout: none;
+	-webkit-user-select: none;
+	-khtml-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+}
+
+div.buttons span:hover {
+    background-color: white;
+}
+
+div.buttons span:active {
+    border: 1px inset grey;
+}
